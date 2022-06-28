@@ -65,6 +65,11 @@ hr {
   color: hsl(229, 23%, 23%);
 }
 
+.stat-headings {
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
 #profile-picture {
   border-radius: 50%;
   border: 5px solid white;
@@ -74,11 +79,6 @@ hr {
 #location {
   margin: 8px 0 25px 0;
   font-size: 14px;
-}
-
-#stat-headings {
-  letter-spacing: 1px;
-  font-size: 12px;
 }
 
 @media screen and (max-height: 400px) {
